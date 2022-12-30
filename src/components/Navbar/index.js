@@ -7,14 +7,14 @@ import {
   Logo,
   NavLinkBox,
 } from './NavbarElements';
-const Navbar = () => {
+const Navbar = ({ toggle }) => {
   return (
     <>
       <Nav>
         <NavLink>
           <Logo>LODONG</Logo>
         </NavLink>
-        <Bars />
+        <Bars onClick={toggle} />
 
         <NavMenu>
           <NavLink to="/" activeStyle>
