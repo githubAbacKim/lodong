@@ -19,13 +19,23 @@ const Sidebar = ({ isOpen, toggle }) => {
 
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to="services">Services</SidebarLink>
-          <SidebarLink to="services">Services</SidebarLink>
-          <SidebarLink to="services">Services</SidebarLink>
-          <SidebarLink to="services">Services</SidebarLink>
+          <SidebarLink to="services" onClick={toggle}>
+            SERVICES
+          </SidebarLink>
+          <SidebarLink to="services" onClick={toggle}>
+            PORTFOLIO
+          </SidebarLink>
+          <SidebarLink to="services" onClick={toggle}>
+            CAREERS
+          </SidebarLink>
+          <SidebarLink to="services" onClick={toggle}>
+            바로문의
+          </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarRoute to="/">dropdown</SidebarRoute>
+          <SidebarRoute to="/" onClick={toggle}>
+            dropdown
+          </SidebarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>
