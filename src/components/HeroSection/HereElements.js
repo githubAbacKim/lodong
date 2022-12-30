@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const HeroContainer = styled.div`
-  background: #0c0c0c;
   display: flex;
+  background: #f5f5f5;
   justify-content: center;
   align-items: center;
   padding: 0 30px;
@@ -13,21 +13,25 @@ export const HeroContainer = styled.div`
 
 export const HeroBg = styled.div`
   position: absolute;
-  /* top: 0;
+  top: 0;
   right: 0;
   bottom: 0;
-  left: 0; */
-  width: 100%;
+
+  left: 750px;
+  width: 50%;
   height: 100%;
   overflow: hidden;
 `;
 
-export const ImageBg = styled.image`
-  width: 100%;
+export const HeroBgOverlay = styled.div`
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 750px;
+  width: 50%;
   height: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
-  background: #232a24;
+  overflow: hidden;
 `;
 
 export const HeroContent = styled.div`
@@ -35,7 +39,7 @@ export const HeroContent = styled.div`
   max-width: 1200px;
   position: absolute;
   top: 311px;
-  left: 150px;
+  left: 360px;
   padding: 2px 24px;
   display: flex;
   flex-direction: column;
@@ -63,7 +67,7 @@ export const HeroContent = styled.div`
 `;
 
 export const HeroH1 = styled.h1`
-  color: #fff;
+  color: #000000;
   font-size: 67px;
   text-align: center;
   font-style: normal;
@@ -77,7 +81,7 @@ export const HeroH1 = styled.h1`
 `;
 
 export const HeroH4 = styled.h4`
-  color: #fff;
+  color: #000000;
   font-size: 28px;
   font-style: normal;
   @media screen and (max-width: 768px) {
@@ -90,7 +94,7 @@ export const HeroH4 = styled.h4`
 `;
 
 export const HeroP = styled.p`
-  color: #fff;
+  color: #000000;
   font-size: 16px;
   margin-bottom: 20px;
   margin-top: 4px;
