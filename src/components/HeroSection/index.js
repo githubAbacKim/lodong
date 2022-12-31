@@ -18,7 +18,7 @@ const HeroSection = () => {
         <img src={bgOpacity} width="1100px" height="1000px" />
       </HeroBg>
       <HeroBgOverlay>
-        <img src={bgpersonImage} width="800px" height="1000px" />
+        <img src={bgpersonImage} width="900px" height="1000px" />
       </HeroBgOverlay>
 
       <HeroContent>

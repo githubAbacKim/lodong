@@ -5,64 +5,205 @@ export const HeroContainer = styled.div`
   background: #f5f5f5;
   justify-content: center;
   align-items: center;
-  padding: 0 30px;
-  height: 800px;
   position: relative;
   z-index: 1;
 `;
 
 export const HeroBg = styled.div`
-  position: absolute;
-  top: 0;
+  position: fixed;
+  top: 60px;
   right: 0;
   bottom: 0;
-
-  left: 750px;
+  left: 850px;
   width: 50%;
   height: 100%;
-  overflow: hidden;
+
+  @media (max-width: 575.98px) {
+    position: fixed;
+    top: 60px;
+    right: 0;
+    bottom: 0;
+    left: 10px;
+    width: 50%;
+    height: 100%;
+  }
+
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    position: fixed;
+    top: 60px;
+    right: 0;
+    bottom: 0;
+    left: 170px;
+    width: 50%;
+    height: 100%;
+  }
+
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    position: fixed;
+    top: 60px;
+    right: 0;
+    bottom: 0;
+    left: 370px;
+    width: 50%;
+    height: 100%;
+  }
+
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    position: fixed;
+    top: 60px;
+    right: 0;
+    bottom: 0;
+    left: 450px;
+    width: 50%;
+    height: 100%;
+  }
+
+  @media (min-width: 1200px) and (min-width: 2800px) {
+    position: fixed;
+    top: 60px;
+    right: 0;
+    bottom: 0;
+    left: 850px;
+    width: 50%;
+    height: 100%;
+  }
 `;
 
 export const HeroBgOverlay = styled.div`
-  position: absolute;
-  top: 0;
+  position: fixed;
+  top: 150px;
   right: 0;
   bottom: 0;
-  left: 750px;
-  width: 50%;
-  height: 100%;
+  left: 730px;
+  width: 100%;
   overflow: hidden;
+  height: 100%;
+
+  @media (max-width: 575.98px) {
+    position: fixed;
+    top: 220px;
+    right: 0;
+    bottom: 0;
+    left: 10px;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+  }
+
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    position: fixed;
+    top: 150px;
+    right: 0;
+    bottom: 0;
+    left: 150px;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+  }
+
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    position: fixed;
+    top: 150px;
+    right: 0;
+    bottom: 0;
+    left: 280px;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+  }
+
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    position: fixed;
+    top: 150px;
+    right: 0;
+    bottom: 0;
+    left: 430px;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+  }
+
+  @media (min-width: 1200px) and (min-width: 2800px) {
+    position: fixed;
+    top: 150px;
+    right: 0;
+    bottom: 0;
+    left: 730px;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+  }
 `;
 
 export const HeroContent = styled.div`
   z-indez: 3;
   max-width: 1200px;
   position: absolute;
-  top: 311px;
-  left: 360px;
+  top: 411px;
+  left: 490px;
   padding: 2px 24px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 
-  @media screen and (max-width: 768px) {
-    top: 200px;
-    left: 0px;
+  @media (max-width: 575.98px) {
     z-indez: 3;
     max-width: 1200px;
     position: absolute;
+    top: 111px;
+    left: 60px;
+    padding: 2px 24px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
   }
 
-  @media screen and (max-width: 480px) {
+  @media (min-width: 576px) and (max-width: 767.98px) {
     z-indez: 3;
     max-width: 1200px;
     position: absolute;
+    top: 111px;
+    left: 60px;
+    padding: 2px 24px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+  }
+
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    z-indez: 3;
+    max-width: 1200px;
+    position: absolute;
+    top: 111px;
+    left: 60px;
+    padding: 2px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    z-indez: 3;
+    max-width: 1200px;
+    position: absolute;
+    top: 311px;
+    left: 20px;
+    padding: 2px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  @media (min-width: 1200px) and (min-width: 2800px) {
+    z-indez: 3;
+    max-width: 1200px;
+    position: absolute;
+    top: 411px;
+    left: 30px;
+    padding: 2px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
 `;
 
@@ -82,10 +223,10 @@ export const HeroH1 = styled.h1`
 
 export const HeroH4 = styled.h4`
   color: #000000;
-  font-size: 28px;
+  font-size: 22px;
   font-style: normal;
   @media screen and (max-width: 768px) {
-    font-size: 40px;
+    font-size: 20px;
   }
 
   @media screen and (max-width: 480px) {
