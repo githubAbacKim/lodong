@@ -67,6 +67,15 @@ export const HeroBg = styled.div`
     width: 50%;
     height: 100%;
   }
+  @media (min-width: 1200px) and (min-width: 2800px) {
+    position: fixed;
+    top: 60px;
+    right: 0;
+    bottom: 0;
+    left: 850px;
+    width: 50%;
+    height: 100%;
+  }
 `;
 
 export const HeroBgOverlay = styled.div`
