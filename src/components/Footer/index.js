@@ -7,7 +7,7 @@ const FooterSection = () => {
     <hr/>
     <FooterContent>
         
-        <div className="container-fluid">
+    <div className="container-fluid">
             <div className="row">
                 <div className="col-3">
                     <b> ADDRESS</b>
@@ -30,16 +30,11 @@ const FooterSection = () => {
             <div className="col-4">
                 <p>cyj@lodong.co.kr</p>
             </div>
-        
         </div>
-        <div className="row">
-            <div className="col">
                 <FooterCopyright>
                     Copyright 2022. Lodong Co., Ltd. All rights reserced.
                 </FooterCopyright>
-            </div>
-        </div>
-        </div>
+    </div>
 
 </FooterContent>
   </>
