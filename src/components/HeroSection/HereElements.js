@@ -7,10 +7,11 @@ export const HeroContainer = styled.div`
   align-items: center;
   position: relative;
   z-index: 1;
+  min-height: 100vh;
 `;
 
 export const HeroBg = styled.div`
-  position: fixed;
+  position: absolute;
   top: 60px;
   right: 0;
   bottom: 0;
@@ -19,7 +20,7 @@ export const HeroBg = styled.div`
   height: 100%;
 
   @media (max-width: 575.98px) {
-    position: fixed;
+    position: absolute;
     top: 60px;
     right: 0;
     bottom: 0;
@@ -29,7 +30,7 @@ export const HeroBg = styled.div`
   }
 
   @media (min-width: 576px) and (max-width: 767.98px) {
-    position: fixed;
+    position: absolute;
     top: 60px;
     right: 0;
     bottom: 0;
@@ -39,7 +40,7 @@ export const HeroBg = styled.div`
   }
 
   @media (min-width: 768px) and (max-width: 991.98px) {
-    position: fixed;
+    position: absolute;
     top: 60px;
     right: 0;
     bottom: 0;
@@ -49,7 +50,7 @@ export const HeroBg = styled.div`
   }
 
   @media (min-width: 992px) and (max-width: 1199.98px) {
-    position: fixed;
+    position: absolute;
     top: 60px;
     right: 0;
     bottom: 0;
@@ -59,7 +60,7 @@ export const HeroBg = styled.div`
   }
 
   @media (min-width: 1200px) and (min-width: 2800px) {
-    position: fixed;
+    position: absolute;
     top: 60px;
     right: 0;
     bottom: 0;
@@ -68,7 +69,7 @@ export const HeroBg = styled.div`
     height: 100%;
   }
   @media (min-width: 1200px) and (min-width: 2800px) {
-    position: fixed;
+    position: absolute;
     top: 60px;
     right: 0;
     bottom: 0;
@@ -79,17 +80,17 @@ export const HeroBg = styled.div`
 `;
 
 export const HeroBgOverlay = styled.div`
-  position: fixed;
+  position: absolute;
   top: 150px;
   right: 0;
   bottom: 0;
   left: 730px;
   width: 100%;
   overflow: hidden;
-  height: 100%;
+  height: 85%;
 
   @media (max-width: 575.98px) {
-    position: fixed;
+    position: absolute;
     top: 220px;
     right: 0;
     bottom: 0;
@@ -100,7 +101,7 @@ export const HeroBgOverlay = styled.div`
   }
 
   @media (min-width: 576px) and (max-width: 767.98px) {
-    position: fixed;
+    position: absolute;
     top: 150px;
     right: 0;
     bottom: 0;
@@ -111,7 +112,7 @@ export const HeroBgOverlay = styled.div`
   }
 
   @media (min-width: 768px) and (max-width: 991.98px) {
-    position: fixed;
+    position: absolute;
     top: 150px;
     right: 0;
     bottom: 0;
@@ -122,7 +123,7 @@ export const HeroBgOverlay = styled.div`
   }
 
   @media (min-width: 992px) and (max-width: 1199.98px) {
-    position: fixed;
+    position: absolute;
     top: 150px;
     right: 0;
     bottom: 0;
@@ -133,7 +134,7 @@ export const HeroBgOverlay = styled.div`
   }
 
   @media (min-width: 1200px) and (min-width: 2800px) {
-    position: fixed;
+    position: absolute;
     top: 150px;
     right: 0;
     bottom: 0;
@@ -218,43 +219,24 @@ export const HeroContent = styled.div`
 
 export const HeroH1 = styled.h1`
   color: #000000;
-  font-size: 67px;
+  font-size: 6vh;
   text-align: center;
   font-style: normal;
-  @media screen and (max-width: 768px) {
-    font-size: 40px;
-  }
 
-  @media screen and (max-width: 480px) {
-    font-size: 32px;
-  }
 `;
 
 export const HeroH4 = styled.h4`
   color: #000000;
-  font-size: 22px;
+  font-size: 2vh;
   font-style: normal;
-  @media screen and (max-width: 768px) {
-    font-size: 20px;
-  }
-
-  @media screen and (max-width: 480px) {
-    font-size: 32px;
-  }
 `;
 
 export const HeroP = styled.p`
   color: #000000;
-  font-size: 16px;
+  font-size: 1.8vh;
   margin-bottom: 20px;
   margin-top: 4px;
   max-width: 600px;
 
-  @media screen and (max-width: 768px) {
-    font-size: 12px;
-  }
-
-  @media screen and (max-width: 480px) {
-    font-size: 8px;
-  }
+ 
 `;
