@@ -18,9 +18,8 @@ export const UpperRightFooterH1 = styled.div`
         margin-bottom: 4rem;
         text-align: right;
         margin-right: 10rem;
-
         
-        @media screen and (max-width: 600px){
+        @media screen and (max-width: 750px){
         text-align: center;
         margin-right: 0rem;
         font-size:5vh;
@@ -32,7 +31,7 @@ export const UpperLeftFooterH1 = styled.div`
     text-align: left;
     margin-left: 10rem;
 
-    @media screen and (max-width: 600px){
+    @media screen and (max-width: 750px){
     text-align: center;
     font-size:5vh;
     margin-left: 0rem;

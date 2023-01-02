@@ -1,15 +1,15 @@
 import React from 'react';
 import {
-  HeroContainer,
-  HeroBg,
+  HeroContainer,/* 
+  HeroBg, */
   HeroContent,
   HeroH1,
   HeroP,
-  HeroH4,
-  HeroBgOverlay,
-} from './HereElements';
+  HeroH4,/* 
+  HeroBgOverlay, */
+} from './HereElements';/* 
 import bgOpacity from '../../images/bgOpacity.svg';
-import bgpersonImage from '../../images/bgpersonImage.svg';
+import bgpersonImage from '../../images/bgpersonImage.svg'; */
 
 const HeroSection = () => {
   return (

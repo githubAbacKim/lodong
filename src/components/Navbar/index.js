@@ -1,4 +1,4 @@
-import React,{useCallback} from 'react';
+import React from 'react';
 import {
   Nav,
   NavLink,
@@ -22,7 +22,7 @@ const Navbar = ({ toggle }) => {
           <NavLink to="/Services"  activeStyle>
             SERVICE
           </NavLink>
-          <NavLink to="/dada" activeStyle>
+          <NavLink to="/" activeStyle>
             PORTFOLIO
           </NavLink>
           <NavLink to="/" activeStyle>
