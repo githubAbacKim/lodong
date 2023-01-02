@@ -13,12 +13,13 @@ import bgpersonImage from '../../images/bgpersonImage.svg';
 
 const HeroSection = () => {
   return (
+
     <HeroContainer>
       <HeroBg>
-        <img src={bgOpacity} width="1100px" height="1000px" />
+        <img src={bgOpacity} width="1100px" height="1000px" alt='prop' />
       </HeroBg>
       <HeroBgOverlay>
-        <img src={bgpersonImage} width="900px" height="1000px" />
+        <img src={bgpersonImage} width="900px" height="1000px" alt='prop' />
       </HeroBgOverlay>
 
       <HeroContent>
@@ -40,6 +41,8 @@ const HeroSection = () => {
         </HeroH4>
       </HeroContent>
     </HeroContainer>
+
+  
   );
 };
 

@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useCallback} from 'react';
 import {
   Nav,
   NavLink,
@@ -7,20 +7,22 @@ import {
   Logo,
   NavLinkBox,
 } from './NavbarElements';
+
 const Navbar = ({ toggle }) => {
+
   return (
-    <>
+   
       <Nav>
-        <NavLink>
-          <Logo>LODONG</Logo>
+        <NavLink to="/">
+          <Logo to='/'>LODONG</Logo>
         </NavLink>
         <Bars onClick={toggle} />
 
         <NavMenu>
-          <NavLink to="/" activeStyle>
+          <NavLink to="/Services"  activeStyle>
             SERVICE
           </NavLink>
-          <NavLink to="/" activeStyle>
+          <NavLink to="/dada" activeStyle>
             PORTFOLIO
           </NavLink>
           <NavLink to="/" activeStyle>
@@ -39,7 +41,7 @@ const Navbar = ({ toggle }) => {
           </NavLink>
         </NavMenu>
       </Nav>
-    </>
+   
   );
 };
 
