@@ -1,26 +1,29 @@
 import React from 'react';
 import {
-  HeroContainer,/* 
-  HeroBg, */
+  HeroContainer,
+  HeroBg,
   HeroContent,
   HeroH1,
   HeroP,
-  HeroH4,/* 
-  HeroBgOverlay, */
-} from './HereElements';/* 
+  HeroH4,
+  HeroBgOverlay,
+} from './HereElements';
 import bgOpacity from '../../images/bgOpacity.svg';
-import bgpersonImage from '../../images/bgpersonImage.svg'; */
+import bgpersonImage from '../../images/bgpersonImage.svg';
 
 const HeroSection = () => {
   return (
     <>
-    <HeroContainer>
-    {/*   <HeroBg>
+    <HeroContainer /* style={{ backgroundImage: `url(${bgpersonImage})`,
+                backgroundRepeat: 'no-repeat',
+                backgroundPosition: 'right',
+                backgroundSize: 'cover'}} */>
+      <HeroBg>
         <img src={bgOpacity} width="1100px" height="1000px" alt='prop' />
       </HeroBg>
       <HeroBgOverlay>
         <img src={bgpersonImage} width="900px" height="1000px" alt='prop' />
-      </HeroBgOverlay> */}
+      </HeroBgOverlay>
 
       <HeroContent>
         <HeroH1>실패없는 개발</HeroH1>

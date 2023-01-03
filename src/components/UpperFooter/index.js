@@ -5,12 +5,11 @@ const UpperFooter = () => {
     <UpperFooterContent>
         <div className="container-fluid">
             <div className="row">
-
-                <div className="col-6">
+                <div className="col-lg">
                     <UpperRightFooterH1>WE ARE <br/>YOURS<br/><RedText>TEAM.</RedText></UpperRightFooterH1>
                 </div>
 
-                <div className="col-6">
+                <div className="col-lg">
                     <UpperLeftFooterH1>WE ARE <br/><RedText>LODONG.</RedText></UpperLeftFooterH1>
                 </div>
 

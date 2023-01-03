@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import bg from '../../images/bg.png';
 
 export const HeroContainer = styled.div`
   display: flex;
@@ -7,7 +8,10 @@ export const HeroContainer = styled.div`
   align-items: center;
   position: relative;
   z-index: 1;
-  min-height: 100vh;
+  min-height: 100vh;/* 
+  background-image: url(${bg});
+  background-height:
+  backgroundRepeat: 'no-repeat'; */
 `;
 
 export const HeroBg = styled.div`
