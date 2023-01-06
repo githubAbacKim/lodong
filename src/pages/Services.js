@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Helmet } from 'react-helmet-async';
 import FooterSection from '../components/Footer';
 import Navbar from '../components/Navbar';
 import ServicesContentSection from '../components/ServicesContent';
@@ -12,6 +13,11 @@ const Services = () => {
   };
   return (
     <>
+     <Helmet>
+      <title>SERVICES</title>
+      <meta name='description' content='lodong Services page'/>
+      <link rel='canonical' href='/Services'/>
+    </Helmet>
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <ServicesContentSection/>

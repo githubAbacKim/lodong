@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 import {
   Nav,
   NavLink,
@@ -22,9 +23,11 @@ const Navbar = ({ toggle }) => {
           <NavLink to="/Services"  activeStyle>
             SERVICE
           </NavLink>
-          <NavLink to="/" activeStyle>
+          <Link to="footer" spy={true} smooth={true} offset={50} duration={500} activeStyle>
+            <NavLink>
             PORTFOLIO
-          </NavLink>
+            </NavLink>
+          </Link>
           <NavLink to="/" activeStyle>
             CAREERS
           </NavLink>

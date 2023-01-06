@@ -5,29 +5,6 @@ padding-top: 10rem;
 padding-bottom: 10rem;
 
 
-@media screen and (max-width: 575.98px) {
-   
-}
-
-@media  screen and  (min-width: 576px) and (max-width: 767.98px) {
- 
-}
-
-@media screen and  (min-width: 768px) and (max-width: 991.98px) {
-
-}
-
-@media  screen and  (min-width: 992px) and (max-width: 1199.98px) {
-
-}
-
-@media  screen and (min-width: 1200px) and (min-width: 2800px) {
-
-}
-@media  screen and  (min-width: 1200px) and (min-width: 2800px) {
-
-}
-
 `;
 
 
@@ -46,16 +23,6 @@ margin-left: 3rem;
     margin-left: 0rem;
 }
 
-@media  screen and  (min-width: 992px) and (max-width: 1199.98px) {
-
-}
-
-@media  screen and (min-width: 1200px) and (min-width: 2800px) {
-
-}
-@media  screen and  (min-width: 1200px) and (min-width: 2800px) {
-
-}
 `;
 
 
@@ -63,29 +30,9 @@ export const TeamContent  = styled.div`
 display: flex;
 text-align: center;
 justify-content:  center;
+margin-top: 15rem;
 
-@media screen and (max-width: 575.98px) {
-   
-}
 
-@media  screen and  (min-width: 576px) and (max-width: 767.98px) {
- 
-}
-
-@media screen and  (min-width: 768px) and (max-width: 991.98px) {
-
-}
-
-@media  screen and  (min-width: 992px) and (max-width: 1199.98px) {
-
-}
-
-@media  screen and (min-width: 1200px) and (min-width: 2800px) {
-
-}
-@media  screen and  (min-width: 1200px) and (min-width: 2800px) {
-
-}
 
 `;
 
@@ -94,25 +41,7 @@ padding: 0.4rem;
     @media screen and (max-width: 575.98px) {
         padding: 0rem;
   }
-
-  @media  screen and  (min-width: 576px) and (max-width: 767.98px) {
-   
-  }
-
-  @media screen and  (min-width: 768px) and (max-width: 991.98px) {
-
-  }
-
-  @media  screen and  (min-width: 992px) and (max-width: 1199.98px) {
- 
-  }
-
-  @media  screen and (min-width: 1200px) and (min-width: 2800px) {
   
-  }
-  @media  screen and  (min-width: 1200px) and (min-width: 2800px) {
-
-  }
 `;
 
 
@@ -131,44 +60,11 @@ display: flex;
 @media screen and  (min-width: 768px) and (max-width: 991.98px) {
     display:block;
 }
-
-@media  screen and  (min-width: 992px) and (max-width: 1199.98px) {
-
-}
-
-@media  screen and (min-width: 1200px) and (min-width: 2800px) {
-
-}
-@media  screen and  (min-width: 1200px) and (min-width: 2800px) {
-
-}
-
 `;
 export const TeamContentInsideColumns  = styled.div`
 position:relative;
 bottom: 9rem;
-@media screen and (max-width: 575.98px) {
-   
-}
 
-@media  screen and  (min-width: 576px) and (max-width: 767.98px) {
- 
-}
-
-@media screen and  (min-width: 768px) and (max-width: 991.98px) {
-
-}
-
-@media  screen and  (min-width: 992px) and (max-width: 1199.98px) {
-
-}
-
-@media  screen and (min-width: 1200px) and (min-width: 2800px) {
-
-}
-@media  screen and  (min-width: 1200px) and (min-width: 2800px) {
-
-}
 `;
 
 
@@ -186,24 +82,7 @@ font-size: 2rem;
    
 }
 
-@media  screen and  (min-width: 576px) and (max-width: 767.98px) {
- 
-}
 
-@media screen and  (min-width: 768px) and (max-width: 991.98px) {
-
-}
-
-@media  screen and  (min-width: 992px) and (max-width: 1199.98px) {
-
-}
-
-@media  screen and (min-width: 1200px) and (min-width: 2800px) {
-
-}
-@media  screen and  (min-width: 1200px) and (min-width: 2800px) {
-
-}
 
 `;
 export const TeamContentDiv  = styled.div`
@@ -233,18 +112,6 @@ box-shadow: 0 0 10px #EC0009;
     width:30rem;
     margin-top:2rem;
 }
-
-@media  screen and  (min-width: 992px) and (max-width: 1199.98px) {
-
-}
-
-@media  screen and (min-width: 1200px) and (min-width: 2800px) {
-
-}
-@media  screen and  (min-width: 1200px) and (min-width: 2800px) {
-
-}
-
 `;
 
 
@@ -255,29 +122,4 @@ font-style: normal;
 line-height: 25px;
 font-family: 'Lato', sans-serif;
 
-
-@media screen and (max-width: 575.98px) {
-   
-}
-
-@media  screen and  (min-width: 576px) and (max-width: 767.98px) {
- 
-}
-
-@media screen and  (min-width: 768px) and (max-width: 991.98px) {
-
-}
-
-@media  screen and  (min-width: 992px) and (max-width: 1199.98px) {
-
-}
-
-@media  screen and (min-width: 1200px) and (min-width: 2800px) {
-
-}
-@media  screen and  (min-width: 1200px) and (min-width: 2800px) {
-
-}
-
- 
 `;

@@ -8,7 +8,7 @@ const FooterSection = () => {
     <FooterContent>
 
      <FooterContainer> 
-    <div className="container-fluid">
+    <div className="container-fluid" id='footer'>
 
         <FooterRow>
             <div className="row">

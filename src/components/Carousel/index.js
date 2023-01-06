@@ -1,8 +1,7 @@
 import React,{useState } from 'react'
 import Carousel from 'react-bootstrap/Carousel';
-import phonebg from '../../images/phonebg.png';
-import doneEditBg from '../../images/doneEditBg.svg';
-import { CarouselContentDIv,CarouselH3,CarouselH2 ,CarouselText,CarouselImage} from './CarouselElements';
+import  picA  from '../../images/carouselImages/picA.svg'
+import { CarouselContentDIv  } from './CarouselElements';
 
 
 const CarouselContent = () => {
@@ -12,43 +11,47 @@ const CarouselContent = () => {
     setIndex(selectedIndex);
   };
 
-  
-  const carouselItem = {
-    backgroud:'#FFFFFF'
+  const imageShadow = {
+    borderRadius: '1.4% 1.4% 1.4% 1.4%',
+    boxShadow: '2px 4px 13px rgba(0, 0, 0, 0.25)',
   };
+
   return (
     <CarouselContentDIv>
-        <Carousel style={carouselItem} activeIndex={index} onSelect={handleSelect} variant="dark">
-            <Carousel.Item >
-                
-            <CarouselImage>
-                    <img src={doneEditBg} style={carouselItem}  width="1500vh" /* height="700px" */ alt='prop' />
-                    </CarouselImage>
-                <Carousel.Caption>
-                <CarouselText>
-                    <CarouselH3><b>간편</b>하고 <b>편리</b>한 <br/><b>시공파트너</b></CarouselH3>
-                    <CarouselH2><b>Keflavik</b></CarouselH2>
-                </CarouselText>
-                </Carousel.Caption>
-            </Carousel.Item>
+        <Carousel  activeIndex={index} onSelect={handleSelect}  variant="light">
 
+            <Carousel.Item  >    
+            <div className='row d-flex'>
+                 <div className='col text-center'>
+                 <img src={picA}  style={imageShadow}  /* width="1700vh" */ height="700px" alt='prop' />
+                 </div>
+            </div>
+            </Carousel.Item>    
+        
+            <Carousel.Item  >    
+            <div className='row d-flex'>
+                 <div className='col text-center'>
+                 <img src={picA}  style={imageShadow}  /* width="1700vh" */ height="700px" alt='prop' />
+                 </div>
+            </div>
+            </Carousel.Item>  
+            <Carousel.Item  >    
+            <div className='row d-flex'>
+                 <div className='col text-center'>
+                 <img src={picA}  style={imageShadow}  /* width="1700vh" */ height="700px" alt='prop' />
+                 </div>
+            </div>
+            </Carousel.Item>  
+            <Carousel.Item  >    
+            <div className='row d-flex'>
+                 <div className='col text-center'>
+                 <img src={picA} style={imageShadow}  /* width="1700vh" */ height="700px" alt='prop' />
+                 </div>
+            </div> 
+            </Carousel.Item>  
 
-            <Carousel.Item >
-                <CarouselImage>
-                    <img src={doneEditBg} style={carouselItem}  width="1500vh" /* height="700px" */ alt='prop' />
-                </CarouselImage>
-                <Carousel.Caption>
-                    <CarouselText>
-                        <CarouselH3><b>Keflavik</b>Keflavik <b>Keflavik</b>Keflavik <br/><b>Keflavik</b></CarouselH3>
-                        <CarouselH2><b>Keflavik</b></CarouselH2>
-                    </CarouselText>
-                </Carousel.Caption>
-            </Carousel.Item>
         </Carousel>
         </CarouselContentDIv>
-
-       
-
   )
 }
 

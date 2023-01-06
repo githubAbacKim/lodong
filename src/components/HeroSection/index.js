@@ -18,12 +18,12 @@ const HeroSection = () => {
                 backgroundRepeat: 'no-repeat',
                 backgroundPosition: 'right',
                 backgroundSize: 'cover'}} */>
-      <HeroBg>
+   {/*    <HeroBg>
         <img src={bgOpacity} width="1100px" height="1000px" alt='prop' />
       </HeroBg>
       <HeroBgOverlay>
         <img src={bgpersonImage} width="900px" height="1000px" alt='prop' />
-      </HeroBgOverlay>
+      </HeroBgOverlay> */}
 
       <HeroContent>
         <HeroH1>실패없는 개발</HeroH1>
