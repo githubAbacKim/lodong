@@ -27,4 +27,3 @@ export const CarouselContentDIv = styled.div`
   
   }
 `;
-

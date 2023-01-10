@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Helmet } from 'react-helmet-async';
-import FooterSection from '../components/Footer';
 import Navbar from '../components/Navbar';
 import ServicesContentSection from '../components/ServicesContent';
 import Sidebar from '../components/Sidebar';
@@ -21,7 +20,6 @@ const Services = () => {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <ServicesContentSection/>
-      <FooterSection/>
     </>
   );
 };

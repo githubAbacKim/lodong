@@ -1,0 +1,104 @@
+.container {
+    display: flex;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding: 4% 1%;
+    box-sizing: border-box;
+    height: 80vh;
+  }
+  
+  .box {
+    border-radius: 0.4em;
+    flex: 2;
+    overflow: hidden;
+    transition: .5s;
+    margin: 0.3%;
+    box-shadow: 0 20px 30px rgba(0,0,0,.1);
+    line-height: 0;
+  }
+  
+  .box > img {
+    height: 100%;
+    width: 200%;
+    object-fit: cover; 
+    transition: .5s;
+    
+  }
+  
+  .box > span {
+    
+    font-weight: bold;
+    display: block;
+    position: absolute;
+    color: white;
+    font-size: 8.8vh;
+    font-family: Inter;
+    font-weight: bolder;
+    line-height: 1;
+  }
+  
+  .box:hover { flex: 1 1 50%; }
+  .box:hover > img {
+    width: 100%;
+    cursor: pointer;
+    height: 100%;
+  }
+  .box:hover > span{
+    margin-left: 1rem;
+    text-align: left;
+  }
+
+  .box:hover > .textSpan > h1{
+   visibility: hidden;
+   transition: 0.4 ease-in-out;
+  }
+
+.contentTextInside{
+    visibility: hidden;
+}
+.contentTextInsideH1{
+    visibility: hidden;
+}
+  .box:hover > .textSpan > .contentTextInside{
+    visibility: visible;
+    transition: 0.4 ease-in-out;
+   }
+   .box:hover > .textSpan > .contentTextInsideH1{
+    visibility: visible;
+    transition: 0.4 ease-in-out;
+   }
+
+  
+.contentText {
+    display: block;
+    position: absolute;
+    color: white;
+    top: 50%;
+    font-size: 4vh;
+    float: left;
+    font-weight: bolder;
+    line-height: 1;
+}
+
+.textSpan{
+    top: 58%;
+}
+
+.contentTextInside{
+    display: block;
+    position: absolute;
+    color: white;
+    font-size: 4vh;
+    font-weight: bolder;
+    line-height: 1;
+}
+
+.contentTextInsideh1{
+    display: block;
+    position: absolute;
+    color: white;
+    font-size: 4vh;
+    font-weight: bolder;
+    line-height: 1;
+}
