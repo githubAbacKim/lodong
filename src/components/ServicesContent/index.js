@@ -1,14 +1,14 @@
 import React from 'react'
 import { ServicesContentSectionH1 } from './ServicesContentElements'
 import './ServicesStyle.css';
-import  picA  from '../../images/ServicesImages/A.svg';
-import  picB  from '../../images/ServicesImages/B.svg';
-import  picC  from '../../images/ServicesImages/C.svg';
-import  picD  from '../../images/ServicesImages/D.svg';
-import  picE  from '../../images/ServicesImages/E.svg';
-import  picF  from '../../images/ServicesImages/F.svg';
-import  picG  from '../../images/ServicesImages/G.svg';
-import  picH  from '../../images/ServicesImages/H.svg';
+import  picA  from './A.png';
+import  picB  from './B.png';
+import  picC  from './C.png';
+import  picD  from './D.png';
+import  picE  from './E.png';
+import  picF  from './F.png';
+import  picG  from './G.png';
+import  picH  from './H.png';
 
 const ServicesContentSection = () => {
   return (
@@ -25,10 +25,7 @@ const ServicesContentSection = () => {
                   <div className="box">
                         <span>1</span>
                         <span className='textSpan'>  <h1 className='contentText'>컨 <br/>설<br/>팅<br/>및<br/>솔<br/>루<br/>션</h1></span>
-                        
-                        <span className='textSpan'>  <h1 className='contentTextInsideH1'>asakfgjfjafjfjj </h1></span>
-                        <span className='textSpan'>  <h1 className='contentTextInside'>asakfgjfjafjfjj <br/>fsjfjsfkjdksj</h1></span>
-                         <img src={picA}  alt=' header content one' />
+                        <img src={picA}  alt=' header content one' />
                         </div>
                         <div class="box">
                           <span>2</span>
