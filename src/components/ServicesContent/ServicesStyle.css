@@ -102,3 +102,39 @@
     font-weight: bolder;
     line-height: 1;
 }
+
+
+@media screen and (max-width: 575.98px) {
+  .container {
+    display: block;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding: 4% 1%;
+    box-sizing: border-box;
+    height: 80vh;
+  }
+
+  
+
+ 
+}
+
+@media  screen and  (min-width: 576px) and (max-width: 767.98px) {
+ 
+}
+
+@media screen and  (min-width: 768px) and (max-width: 991.98px) {
+ 
+}
+
+@media  screen and  (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+@media  screen and (min-width: 1200px) and (min-width: 2800px) {
+
+}
+@media  screen and  (min-width: 1200px) and (min-width: 2800px) {
+
+}

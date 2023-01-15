@@ -15,12 +15,12 @@ const ServicesContentSection = () => {
         
     <div className="container-fluid Maincontainer">
         <div className="row pt-5">
-            <div className="col-4 text-center">
+            <div className="col-sm-12 text-center col-lg-4">
               
               <ServicesContentSectionH1 className='font-weight-bold headerText'><p className='h1'>로동은<br/>이렇게 <br/>개발<br/>합니다.</p></ServicesContentSectionH1>
     
             </div>
-            <div className="col-6 text-center">
+            <div className=" col-lg-6 text-center col-sm-12">
             <div class="container">
                   <div className="box">
                         <span>1</span>
