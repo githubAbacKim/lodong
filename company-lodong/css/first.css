@@ -1,0 +1,350 @@
+@font-face {
+    font-family: 'leferi';
+    src: url('../fonts/LeferiBaseRegular.otf') format('opentype');
+}
+
+@font-face {
+    font-family:'load_apple';
+    src: local('../fonts/AppleSDGothicNeoB.ttf');
+
+}
+
+@font-face {
+    font-family:'load_apple_kor';
+    src: local('../fonts/AppleSDGothicNeoL.ttf');
+
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+.container_first {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.top_bar {
+    width: 100%;
+    height: 674px;
+    position: relative;
+    background-image: url("../resources/first_topbar.svg");
+}
+
+.text_container {
+    left: 583px;
+    top: 248px;
+    position: absolute;
+    background-color: transparent;
+}
+
+
+.text1 {
+    background-color: transparent;
+}
+
+.text2 {
+    background-color: transparent;
+}
+
+.text1 p {
+    color: white;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+}
+
+.text2 p {
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 46px;
+    color: white;
+    margin-top: 24px;
+    background-color: transparent;
+}
+
+.first_sentence {
+    position: relative;
+    color: white;
+    float: left;
+    background-color: transparent;
+}
+
+.second_sentence {
+    position: relative;
+    color: white;
+    float: left;
+    background-color: transparent;
+}
+
+.text_bottom {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    height: 50px;
+    left: 583px;
+}
+
+.text_bottom a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 38px;
+    font-family: load_apple;
+
+}
+
+.text_bottom p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 38px;
+    font-family: load_apple_kor;
+
+}
+
+.first_sentence a {
+    float: left;
+
+}
+
+.first_sentence p {
+    float: right;
+    margin-left: 20px;
+    background-color: transparent;
+
+}
+
+
+.second_sentence a {
+    float: left;
+    margin-left: 100px;
+}
+
+.second_sentence p {
+    float: right;
+    margin-left: 20px;
+    background-color: transparent;
+}
+
+.detail_container {
+    position: relative;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 37px;
+    color: #000000;
+    font-family: load_apple;
+}
+
+.detail_first {
+    margin-top: 225px;
+    margin-left: 529px;
+    position: relative;
+    display: flex;
+
+
+}
+
+.detail_container p {
+    position: relative;
+    font-family: load_apple_kor, sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 37px;
+}
+
+.detail_container a {
+    margin-left: 50px;
+    position: relative;
+    font-family: load_apple, sans-serif;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+}
+
+.detail_second {
+    position: relative;
+    margin-top: 245px;
+    margin-left: 529px;
+}
+
+.detail_second p {
+    position: relative;
+}
+
+.detail_second a {
+    margin-left: 50px;
+    position: relative;
+}
+
+.detail_third {
+    position: relative;
+    display: flex;
+    margin: auto;
+}
+
+.third_text {
+    position: relative;
+    left: 0;
+    margin-left: 529px;
+
+}
+
+.third_text p {
+    margin-top: 200px;
+    padding-bottom: 67px;
+}
+
+.third_text a {
+    margin: auto;
+
+}
+
+.third_image {
+    position: relative;
+}
+
+.third_image {
+
+
+}
+
+.first {
+    position: absolute;
+    margin-left: 38px;
+}
+
+.second {
+    position: absolute;
+    margin-left: 96px;
+    margin-top: 153px;
+}
+
+.gray_circle {
+    position: absolute;
+    margin-top: 132px;
+    margin-left: 211px;
+}
+
+
+.detail_forth {
+    position: relative;
+    display: flex;
+    margin-left: 308px;
+
+}
+.forth_text2{
+    position: relative;
+    display: flex;
+    font-family: load_apple,sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+}
+
+.forth_img {
+    position: relative;
+
+
+}
+
+.forth_text2 {
+    position: relative;
+    margin-top: 600px;
+}
+
+
+
+.gray_small_circle{
+    position: absolute;
+    margin-top: 900px;
+    margin-left: 200px;
+}
+.forth_img2_set{
+    position: absolute;
+    z-index: 5;
+    margin-top: 200px;
+}
+.break{
+    position: relative;
+    margin-top: 600px;
+    margin-left: 529px;
+
+}
+.break a{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 46px;
+    position: relative;
+    margin: auto;
+}
+.fifth_text{
+    position: relative;
+    margin-left: 415px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    margin-bottom: 500px;
+}
+.fifth_text p{
+    position: relative;
+    margin-top: 382px;
+    width: max-content;
+
+    margin-bottom: 40px;
+}
+.fifth_text a{
+    position: relative;
+    margin-left: 0px;
+    display: inline-block;
+
+}
+.detail_fifth{
+    position: relative;
+    display: flex;
+}
+.fifth_img{
+    display: flex;
+    margin-left: 222px;
+
+}
+.fifth_img1{
+    position: absolute;
+    z-index: 5;
+
+}
+
+.fifth_gray1{
+    position: absolute;
+    margin-left: 410px;
+    margin-top: 145px;
+}
+.fifth_gray2{
+    position: absolute;
+    margin-top: 421px;
+    margin-left: 185px;
+}
+
+.detail_sixth{
+    position: relative;
+    display: flex;
+    margin-left: 225px;
+}
+.sixth_text{
+    position: relative;
+    margin: auto auto auto 95px;
+}
+.detail_sixth a{
+margin: auto;
+}
+.bottom_icons{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 200px 0px  ;
+
+    cursor: pointer;
+}
