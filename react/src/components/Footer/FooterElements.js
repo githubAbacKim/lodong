@@ -3,17 +3,33 @@ import styled from "styled-components";
 
 
 export const FooterContainer = styled.div`
+padding-left: 10rem;
+padding-right: 10rem;
+padding-top: 2rem;
+padding-bottom: 15rem;
 
 @media screen and (max-width: 575.98px) {
-  display:blockl
+  display:block;
+  padding-left: 0rem;
+  padding-right: 0rem;
+  padding-top: 5rem;
+  padding-bottom: 15rem;
 }
 
 @media  screen and  (min-width: 576px) and (max-width: 767.98px) {
- 
+  display:block;
+  padding-left: 0rem;
+  padding-right: 0rem;
+  padding-top: 2rem;
+  padding-bottom: 15rem;
 }
 
 @media screen and  (min-width: 768px) and (max-width: 991.98px) {
- 
+  display:block;
+  padding-left: 0rem;
+  padding-right: 0rem;
+  padding-top: 2rem;
+  padding-bottom: 15rem;
 }
 
 @media  screen and  (min-width: 992px) and (max-width: 1199.98px) {

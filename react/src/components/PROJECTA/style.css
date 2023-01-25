@@ -1,0 +1,325 @@
+.mainContainer{
+    color: #FFFFFF;
+}
+
+.text-justify{
+    text-align: justify;
+}
+.darktext{
+    font-size: 1rem;
+    font-weight: 900;
+    font-family: 'Inter', sans-serif;
+}
+
+.bold{
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-family: 'Inter', sans-serif;
+}
+
+/* 
+.mainParagraph{
+    position: absolute;
+    width: 141px;
+    height: 32px;
+    left: 100px;
+    top: 454px;
+    text-align: left;
+    font-family: 'AppleSDGothicNeoM00';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 37px;
+}
+
+.ParagraphContent{
+    position: absolute;
+    width: 141px;
+    height: 32px;
+    text-align: justify;
+    left: 100px;
+    top: 524px;
+    font-family: 'AppleSDGothicNeoM00';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 37px;
+}
+ */
+
+ .wholephone{
+    width: 40vh;
+    height: 100vh;
+ }
+
+.headerH1{
+    color: #FFFFFF;
+    font-size: 2rem;
+
+}
+.LeftfooterImageStyle{
+    width: 700px;
+    height: 200px;
+    cursor: pointer;
+    margin-left: 14rem;
+}
+.RightfooterImageStyle{
+    width: 700px;
+    height: 200px;
+    cursor: pointer;
+    margin-right: 14rem;
+}
+
+.heroHeaderImage{
+    height: "30rem";
+     margin-top: "5rem";
+}
+
+.headerText{
+    float: right;
+    color: white;
+    margin-top: 10rem;
+    font-size: 33px;
+}
+
+.overflowImage{
+    height: 80vh;
+    margin-top: 39rem;
+}
+.text-start{
+    font-size: 2vh;
+}
+@media screen and (max-width: 575.98px) {
+    .text-start{
+        text-align: center !important;
+    }
+    .bottomImage{
+        width: 40vh;
+    }
+    .monitorDotimage{
+    width: 45vh;
+    }
+   
+    .ContentRow{
+        margin: 0rem; 
+    }
+    .headerP{
+        text-align: center;
+    }
+    .wholephone{
+        width: 40vh;
+    }
+    
+.overflowImage{
+    height: 80vh;
+    margin-top: 1rem;
+}
+    .headerText{
+        color: white;
+        float: none;
+        margin-top: 11rem;
+        font-size: 30px;
+        padding: 2rem;
+    }
+    .heroHeaderImage{
+        height: 20rem;
+        padding: 1rem;
+        width: 3    0rem;
+        margin-top: 4rem;
+    }
+
+    .LeftfooterImageStyle{
+        width: 400px;
+        height: 200px;
+        cursor: pointer;
+        margin-left: 2rem;
+    }
+    .RightfooterImageStyle{
+        width: 400px;
+        height: 200px;
+        cursor: pointer;
+        margin-right: 0rem;
+        margin-left: 2rem;
+    }
+
+    .herosection{
+        width: 100%;
+        display: flex;
+    }
+
+    .twoPhones{
+    width: 50vh;
+    }
+
+    .monitorDot{
+        width: 50vh;
+    }
+  }
+  
+  @media  screen and  (min-width: 576px) and (max-width: 767.98px) {
+    .overflowImage{
+        height: 80vh;
+        margin-top: 1rem;
+    }
+    .monitorDotimage{
+        width: 47vh;
+        }
+    .twoPhones{
+        width: 50vh;
+        }
+    .projectAContent{
+        margin-top: 20rem;
+    }
+
+    .ContentRow{
+        margin: 0rem; 
+    }
+    .herosection{
+        width: 100%;
+        display: flex;
+
+    }
+    .heroHeaderImage{
+        height: 20rem;
+        width: 30rem;
+         margin-top: 2rem;    
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .wholephone{
+        width: 40vh;
+    }
+    .LeftfooterImageStyle{
+        width: 460px;
+        height: 200px;
+        cursor: pointer;
+        margin-left: 2rem;
+    }
+    .RightfooterImageStyle{
+        width: 460px;
+        height: 200px;
+        cursor: pointer;
+        margin-right: 0rem;
+        margin-left: 2rem;
+    }
+  }
+  
+  @media screen and  (min-width: 768px) and (max-width: 991.98px) {
+    .overflowImage{
+        height: 80vh;
+        margin-top: 1rem;
+    }
+    .monitorDotimage{
+        width: 50vh;
+        }
+    .wholephone{
+        width: 55vh;
+    }
+    .twoPhones{
+        width: 60vh;
+        }
+    .ContentRow{
+       /*  margin: 2rem !important; */
+    }
+    .heroHeaderImage{
+        height: 20rem;
+        width: 30rem;
+         margin-top: 2rem;    
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .LeftfooterImageStyle{
+        width: 520px;
+        height: 200px;
+        cursor: pointer;
+        margin-left: 2rem;
+    }
+    .RightfooterImageStyle{
+        width: 520px;
+        height: 200px;
+        cursor: pointer;
+        margin-right: 0rem;
+        margin-left: 2rem;
+    }
+  }
+  
+  @media  screen and  (min-width: 992px) and (max-width: 1199.98px) {
+    .monitorDotimage{
+        width: 50vh;
+        }
+    .wholephone{
+        width: 57vh;
+    }
+    .twoPhones{
+        width: 50vh;
+        }
+    .heroHeaderImage{
+        height: 20rem;
+        width: 30rem;
+         margin-top: 2rem;    
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .LeftfooterImageStyle{
+        width: 420px;
+        height: 200px;
+        cursor: pointer;
+        margin-left: 2rem;
+    }
+    .RightfooterImageStyle{
+        width: 420px;
+        height: 200px;
+        cursor: pointer;
+        margin-right: 0rem;
+        margin-left: 2rem;
+    }
+  }
+
+  @media  screen and  (min-width: 1200px)  {
+    .monitorDotimage{
+        width: 70vh;
+        }
+    .twoPhones{
+        width: 50vh;
+        }
+
+    .LeftfooterImageStyle{
+        width: 520px;
+        height: 200px;
+        cursor: pointer;
+        margin-left: 2rem;
+    }
+    .RightfooterImageStyle{
+        width: 520px;
+        height: 200px;
+        cursor: pointer;
+        margin-right: 0rem;
+        margin-left: 2rem;
+    }
+  }
+  
+  @media screen and  (min-width: 1745px)  {
+        .LeftfooterImageStyle{
+            width: 700px;
+            height: 200px;
+            cursor: pointer;
+            margin-left: 14rem;
+        }
+        .RightfooterImageStyle{
+            width: 700px;
+            height: 200px;
+            cursor: pointer;
+            margin-right: 14rem;
+        }
+  }
+  
+
+
+
+ 

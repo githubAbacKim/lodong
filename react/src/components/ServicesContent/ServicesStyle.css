@@ -1,3 +1,7 @@
+@import url(//db.onlinewebfonts.com/c/67680f2eb947c5cbd58b40961b4a61e9?family=Apple+SD+Gothic+Neo);
+@font-face {font-family: "Apple SD Gothic Neo"; src: url("//db.onlinewebfonts.com/t/67680f2eb947c5cbd58b40961b4a61e9.eot"); src: url("//db.onlinewebfonts.com/t/67680f2eb947c5cbd58b40961b4a61e9.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/67680f2eb947c5cbd58b40961b4a61e9.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/67680f2eb947c5cbd58b40961b4a61e9.woff") format("woff"), url("//db.onlinewebfonts.com/t/67680f2eb947c5cbd58b40961b4a61e9.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/67680f2eb947c5cbd58b40961b4a61e9.svg#Apple SD Gothic Neo") format("svg"); }
+
+
 .container {
     display: flex;
     width: 100%;
@@ -44,6 +48,7 @@
     cursor: pointer;
     height: 100%;
   }
+  
   .box:hover > span{
     margin-left: 1rem;
     text-align: left;
@@ -55,19 +60,288 @@
   }
 
 .contentTextInside{
-    visibility: hidden;
+  visibility: hidden;
+  display: block;
+  position: absolute;
+  color: white;
+  top: 35%;
+  left: 4%;
+  visibility: hidden;
+  font-size: 2vh !important;
+  font-weight: normal !important;
+  line-height: 1;
 }
 .contentTextInsideH1{
-    visibility: hidden;
+  display: block;
+  position: absolute;
+  color: white;
+  top: 20%;
+  left: 4%;
+  visibility: hidden;
+  font-size: 4vh !important; 
+  font-weight: bolder;
+  line-height: 1;
 }
-  .box:hover > .textSpan > .contentTextInside{
+.BcontentTextInside{
+  visibility: hidden;
+  display: block;
+  position: absolute;
+  color: white;
+  top: 35%;
+  left: 14%;
+  visibility: hidden;
+  font-size: 2vh !important;
+  font-weight: normal !important;
+  line-height: 1;
+}
+.BcontentTextInsideH1{
+  display: block;
+  position: absolute;
+  color: white;
+  top: 20%;
+  left: 14%;
+  visibility: hidden;
+  font-size: 4vh !important; 
+  font-weight: bolder;
+  line-height: 1;
+}
+
+.CcontentTextInside{
+  visibility: hidden;
+  display: block;
+  position: absolute;
+  color: white;
+  top: 35%;
+  left: 19%;
+  visibility: hidden;
+  font-size: 2vh !important;
+  font-weight: normal !important;
+  line-height: 1;
+}
+.CcontentTextInsideH1{
+  display: block;
+  position: absolute;
+  color: white;
+  top: 20%;
+  left: 19%;
+  visibility: hidden;
+  font-size: 4vh !important; 
+  font-weight: bolder;
+  line-height: 1;
+}
+
+
+.DcontentTextInside{
+  visibility: hidden;
+  display: block;
+  position: absolute;
+  color: white;
+  top: 35%;
+  left: 25%;
+  visibility: hidden;
+  font-size: 2vh !important;
+  font-weight: normal !important;
+  line-height: 1;
+}
+.DcontentTextInsideH1{
+  display: block;
+  position: absolute;
+  color: white;
+  top: 20%;
+  left: 25%;
+  visibility: hidden;
+  font-size: 4vh !important; 
+  font-weight: bolder;
+  line-height: 1;
+}
+
+.EcontentTextInside{
+  visibility: hidden;
+  display: block;
+  position: absolute;
+  color: white;
+  top: 35%;
+  left: 32%;
+  visibility: hidden;
+  font-size: 2vh !important;
+  font-weight: normal !important;
+  line-height: 1;
+}
+.EcontentTextInsideH1{
+  display: block;
+  position: absolute;
+  color: white;
+  top: 20%;
+  left: 32%;
+  visibility: hidden;
+  font-size: 4vh !important; 
+  font-weight: bolder;
+  line-height: 1;
+}
+
+.FcontentTextInside{
+  visibility: hidden;
+  display: block;
+  position: absolute;
+  color: white;
+  top: 35%;
+  left: 37%;
+  visibility: hidden;
+  font-size: 2vh !important;
+  font-weight: normal !important;
+  line-height: 1;
+}
+.FcontentTextInsideH1{
+  display: block;
+  position: absolute;
+  color: white;
+  top: 20%;
+  left: 37%;
+  visibility: hidden;
+  font-size: 4vh !important; 
+  font-weight: bolder;
+  line-height: 1;
+}
+
+.GcontentTextInside{
+  visibility: hidden;
+  display: block;
+  position: absolute;
+  color: white;
+  top: 35%;
+  left: 47%;
+  visibility: hidden;
+  font-size: 2vh !important;
+  font-weight: normal !important;
+  line-height: 1;
+}
+.GcontentTextInsideH1{
+  display: block;
+  position: absolute;
+  color: white;
+  top: 20%;
+  left: 47%;
+  visibility: hidden;
+  font-size: 4vh !important; 
+  font-weight: bolder;
+  line-height: 1;
+}
+
+.HcontentTextInside{
+  visibility: hidden;
+  display: block;
+  position: absolute;
+  color: white;
+  top: 35%;
+  left: 53%;
+  visibility: hidden;
+  font-size: 2vh !important;
+  font-weight: normal !important;
+  line-height: 1;
+}
+.HcontentTextInsideH1{
+  display: block;
+  position: absolute;
+  color: white;
+  top: 20%;
+  left: 53%;
+  visibility: hidden;
+  font-size: 4vh !important; 
+  font-weight: bolder;
+  line-height: 1;
+}
+
+.box:hover >  .HcontentTextInside{
+  visibility: visible;
+  transition: 0.4 ease-in-out;
+  
+ }
+ .box:hover > .HcontentTextInsideH1{
+  visibility: visible;
+  transition: 0.4 ease-in-out;
+ }
+
+
+.box:hover >  .GcontentTextInside{
+  visibility: visible;
+  transition: 0.4 ease-in-out;
+  
+ }
+ .box:hover > .GcontentTextInsideH1{
+  visibility: visible;
+  transition: 0.4 ease-in-out;
+ }
+
+.box:hover >  .FcontentTextInside{
+  visibility: visible;
+  transition: 0.4 ease-in-out;
+  
+ }
+ .box:hover > .FcontentTextInsideH1{
+  visibility: visible;
+  transition: 0.4 ease-in-out;
+  
+ }
+
+
+
+.box:hover >  .EcontentTextInside{
+  visibility: visible;
+  transition: 0.4 ease-in-out;
+  
+ }
+ .box:hover > .EcontentTextInsideH1{
+  visibility: visible;
+  transition: 0.4 ease-in-out;
+  
+ }
+
+.box:hover >  .DcontentTextInside{
+  visibility: visible;
+  transition: 0.4 ease-in-out;
+  
+ }
+ .box:hover > .DcontentTextInsideH1{
+  visibility: visible;
+  transition: 0.4 ease-in-out;
+  
+ }
+
+.box:hover >  .CcontentTextInside{
+  visibility: visible;
+  transition: 0.4 ease-in-out;
+  
+ }
+ .box:hover > .CcontentTextInsideH1{
+  visibility: visible;
+  transition: 0.4 ease-in-out;
+  
+ }
+
+.box:hover >  .BcontentTextInside{
+  visibility: visible;
+  transition: 0.4 ease-in-out;
+  
+ }
+ .box:hover > .BcontentTextInsideH1{
+  visibility: visible;
+  transition: 0.4 ease-in-out;
+  
+ }
+
+
+  .box:hover >  .contentTextInside{
     visibility: visible;
     transition: 0.4 ease-in-out;
+    
    }
-   .box:hover > .textSpan > .contentTextInsideH1{
+   .box:hover > .contentTextInsideH1{
     visibility: visible;
     transition: 0.4 ease-in-out;
+    
    }
+
+
 
   
 .contentText {
@@ -96,14 +370,20 @@
 
 .contentTextInsideh1{
     display: block;
-    position: absolute;
-    color: white;
-    font-size: 4vh;
+    color: rgb(109, 33, 33);
+    font-size: 2vh;
     font-weight: bolder;
     line-height: 1;
 }
+.redtext{
+  color: #DD2B21;
+}
 
-
+.h1{
+  justify-content: left;
+  font-weight: 900;
+  font-family: 'Inter', sans-serif;
+}
 @media screen and (max-width: 575.98px) {
   .container {
     display: block;
@@ -115,9 +395,15 @@
     height: 80vh;
   }
 
-  
+}
 
- 
+
+.headerTexts {
+      font-family: 'AppleSDGothicNeoEB00';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 65px;
+      line-height: 84px;
 }
 
 @media  screen and  (min-width: 576px) and (max-width: 767.98px) {

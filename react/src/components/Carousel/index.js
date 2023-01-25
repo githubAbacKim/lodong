@@ -23,7 +23,7 @@ const CarouselContent = () => {
             <Carousel.Item  >    
             <div className='row d-flex'>
                  <div className='col text-center'>
-                 <img src={picA}  style={imageShadow}  /* width="1700vh" */ height="700px" alt='prop' />
+              {/*    <img src={picA}  style={imageShadow}  width="1700vh" height="700px" alt='prop' /> */}
                  </div>
             </div>
             </Carousel.Item>    
@@ -31,14 +31,14 @@ const CarouselContent = () => {
             <Carousel.Item  >    
             <div className='row d-flex'>
                  <div className='col text-center'>
-                 <img src={picA}  style={imageShadow}  /* width="1700vh" */ height="700px" alt='prop' />
+                {/*  <img src={picA}  style={imageShadow}  width="1700vh" height="700px" alt='prop' /> */}
                  </div>
             </div>
             </Carousel.Item>  
             <Carousel.Item  >    
             <div className='row d-flex'>
                  <div className='col text-center'>
-                 <img src={picA}  style={imageShadow}  /* width="1700vh" */ height="700px" alt='prop' />
+               {/*   <img src={picA}  style={imageShadow}  width="1700vh" height="700px" alt='prop' /> */}
                  </div>
             </div>
             </Carousel.Item>  

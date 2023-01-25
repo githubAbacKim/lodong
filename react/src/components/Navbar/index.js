@@ -9,7 +9,31 @@ import {
   NavLinkBox,
 } from './NavbarElements';
 
+const API_endpoint = `https://api.openweathermap.org/data/2.5/weather?`;
+const API_key = `abf6a20074c9e8ceda7eff4ed70de0ba`
+
+
 const Navbar = ({ toggle }) => {
+  const [latitude , setLatitude] = React.useState('');
+  const [longitude , setLongitude] = React.useState('');
+  const [responseData, setResponseData] = React.useState('');
+  const [loading, setLoading] = React.useState(false);
+
+  React.useEffect(() => {
+    navigator.geolocation.getCurrentPosition((position) => {
+      setLatitude(position.coords.latitude);
+      setLongitude(position.coords.longitude)
+    })
+
+    let finalAPIEndPoint =`${API_endpoint}lat=${latitude}&lon=${longitude}&appid=${API_key}`
+   /*  axios.get(finalAPIEndPoint)
+    .then((response) => {
+      console.log(response.data)
+    }) */
+
+/* 
+    console.log(finalAPIEndPoint) */
+  },[])
 
   return (
    
@@ -31,7 +55,7 @@ const Navbar = ({ toggle }) => {
           <NavLink to="/" activeStyle>
             CAREERS
           </NavLink>
-          <NavLinkBox to="/" activeStyle>
+          <NavLinkBox to="/Inquire" activeStyle>
             바로문의
           </NavLinkBox>
         </NavMenu>

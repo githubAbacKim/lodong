@@ -1,10 +1,8 @@
 import styled from "styled-components";
 
 export const TeamContainer  = styled.div`
-padding-top: 10rem;
+padding-top: 1rem;
 padding-bottom: 10rem;
-
-
 `;
 
 
@@ -30,9 +28,7 @@ export const TeamContent  = styled.div`
 display: flex;
 text-align: center;
 justify-content:  center;
-margin-top: 15rem;
-
-
+margin-top: 30rem;
 
 `;
 
@@ -40,7 +36,7 @@ export const TeamContentColumns  = styled.div`
 padding: 0.4rem;
     @media screen and (max-width: 575.98px) {
         padding: 0rem;
-  }
+    }
   
 `;
 

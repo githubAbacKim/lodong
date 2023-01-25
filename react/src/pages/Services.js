@@ -17,6 +17,7 @@ const Services = () => {
       <meta name='description' content='lodong Services page'/>
       <link rel='canonical' href='/Services'/>
     </Helmet>
+    
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <ServicesContentSection/>
